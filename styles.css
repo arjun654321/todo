@@ -1,0 +1,136 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .todo {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+  }
+  
+  .todo h1 {
+    margin: 0 0 20px;
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #todo-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #add-btn {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #add-btn:hover {
+    background: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  ul li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  ul li button {
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  ul li button:hover {
+    background: #c0392b;
+  }
+  
+  .clr-btn {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .clr-btn:hover {
+    background: #641b08;
+  }
+  
+  /* Add styles for timestamp */
+.task-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .task-content small {
+    color: #888;
+    font-size: 12px;
+  }
+  
+
+
+  
+.sr-no {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.task-content {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.task-content small {
+  color: #888;
+  font-size: 12px;
+}
+
+button {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
